@@ -74,7 +74,13 @@ header{
     padding: 15px;
     line-height: 1.5em;
     margin: 30px;
+    animation-name: slideup;
+    animation-duration: 2s;
 
+}
+@keyframes slideup {
+    from{transform: translate(900px);}
+    
 }
 #intro h1{
 color: rgb(140, 183, 221);
@@ -203,7 +209,7 @@ a{
     text-decoration: none;
 }
 #facts1{
-    background-color: #807e7e;
+    background-color: #bdbbbb;
     line-height: 1.5;
     padding: 20px;
 
@@ -211,7 +217,7 @@ a{
     
 }
 #facts1 h1{
-    color: rgb(151, 222, 81);
+    color: rgb(36, 143, 0);
     font-size: 45px;
     font-family: 'Playfair Display', serif;
     padding: 10px;
@@ -227,7 +233,7 @@ a{
 }
 #facts1 p{
     font-size: 20px;
-    color: rgb(208, 203, 203);
+    color: rgb(0, 0, 0);
 }
 
 #introleo{
@@ -257,6 +263,8 @@ a{
     color: ghostwhite;
     font-size: 40px;
     text-align: center;
+    animation-name: slideup;
+    animation-duration: 2s;
 
 }
 #map{
@@ -360,6 +368,8 @@ table td {
     color: ghostwhite;
     font-size: 40px;
     text-align: center;
+    animation-name: slideup;
+    animation-duration: 2s;
 
 }
 #dis1-department h3{
@@ -396,11 +406,138 @@ table td {
     justify-content: center;
     align-items: center;
 }
+.depp3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#dep3 h1{
+    font-size: 40px;
+    padding: 10px;
+
+}
+#dep3 p{
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.dep3-img img{
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+}
+#introleo{
+    background-image: linear-gradient(rgba(30, 30, 30, 0.9), rgba(0, 0, 0, 0.218)),
+        url(img/leopardintro.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+    padding-top: 150px;
+    margin-top: 10px;
+    background-attachment: fixed
+}
+#introleo h3{
+    color: ghostwhite;
+    font-size: 40px;
+    text-align: center;
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+#leo1{
+    font-size: 40px;
+    padding: 30px;
+    color: #d7eedf;
+    text-align: center;
+    margin: 15px;
+    background-color: #3a9358;
 
 
+}
+#leo1 p{
+    line-height: 1.8;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    
 
+}
+#leo2{
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 30px;
+    margin: 15px;
 
+}
+#leo2 img{
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    transition: ease 0.5s;
+}
+#leo2 h1{
+    font-size: 45px;
+    color: #860101;
 
+}
+#leo2 h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+#leo2 p{
+    font-size: 20px;
+}
+#leo3{
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 20px;
+
+}
+#leo3 h1{
+    font-size: 40px;
+    padding: 20px;
+}
+#leo3 ol{
+    font-size: 20px;
+    font-weight: bold;
+}
+#animalintro{
+    background-image: linear-gradient(rgba(30, 30, 30, 0.9), rgba(0, 0, 0, 0.218)),
+        url(img/animalintro.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+    padding-top: 150px;
+    margin-top: 10px;
+    background-attachment: fixed
+}
+#animalintro h1{
+    font-size: 40px;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5em;
+    margin: 30px;
+    animation-name: slideup;
+    animation-duration: 2s;
+}    
 .footer{
     padding: 0px;
     background-color: #52b673;
@@ -445,6 +582,28 @@ table td {
 .social-links img:hover{
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
+}
+
+.mappic1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+}
+.mappic1 img{
+    width: 320px;
+    height: 350px;
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: 1px;
+    transition: ease 0.5s;
+}
+.mappic1 img:hover{
+    transform: scale(1.04);
+}
+#leo2 img:hover{
+    transform: scale(1.04);
 }
 @media screen and (max-width:1024px ){
     .menu li{
@@ -491,7 +650,8 @@ table td {
         height: 250px;
     }
     table{
-        width: 450px;
+        width: 100%;
+        
     }
     #department2 iframe{
         width: 400px;
@@ -501,7 +661,15 @@ table td {
         width: 350px;
         height: 350px;
     }
-    
+    .mappic1{
+        flex-direction: column;
+    }
+   .depp3{
+    flex-direction: column;
+   }
+   #dep3 p{
+    font-size: px;
+   }
 
 
 }
