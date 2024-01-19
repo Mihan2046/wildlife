@@ -58,7 +58,7 @@ header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
         url(img/image2.jpg);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 700px;
     background-size: cover;
     padding-top: 150px;
     margin-top: 10px;
@@ -97,6 +97,7 @@ text-align: center;
     cursor: pointer;
     text-align: center;
     
+    
     transition: background-color 0.5s ease;
     &:hover {
         background-color: #e3be2b;
@@ -104,12 +105,14 @@ text-align: center;
 }
 .button1 a{
     color: white;
+    
 }
 .btn{
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    
     
 }
 a{
@@ -252,7 +255,7 @@ a{
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
         url(img/wildlifeintro.jpg);
     background-repeat: no-repeat;
-    height: 450px;
+    height: 550px;
     background-size: cover;
     padding-top: 150px;
     margin-top: 10px;
@@ -353,7 +356,7 @@ table td {
     background-image: linear-gradient(rgba(101, 98, 98, 0.9), rgba(0, 0, 0, 0.218)),
         url(img/department-intro.jpg);
     background-repeat: no-repeat;
-    height: 450px;
+    height: 550px;
     background-size: cover;
     padding-top: 150px;
     margin-top: 10px;
@@ -436,7 +439,7 @@ table td {
     background-image: linear-gradient(rgba(30, 30, 30, 0.9), rgba(0, 0, 0, 0.218)),
         url(img/leopardintro.jpg);
     background-repeat: no-repeat;
-    height: 450px;
+    height: 550px;
     background-size: cover;
     padding-top: 150px;
     margin-top: 10px;
@@ -612,7 +615,7 @@ table td {
     background-image: linear-gradient(rgba(30, 30, 30, 0.9), rgba(0, 0, 0, 0.218)),
         url(img/animalintro.jpg);
     background-repeat: no-repeat;
-    height: 450px;
+    height: 550px;
     background-size: cover;
     padding-top: 150px;
     margin-top: 10px;
@@ -771,8 +774,8 @@ table td {
         margin-top: 30px;
     }
     .location-1 iframe{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     }
     .mappic1 img{
         width: 250px;
@@ -783,12 +786,12 @@ table td {
         
     }
     #department2 iframe{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     }
     #department2 img{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
     .mappic1{
         flex-direction: column;
@@ -799,6 +802,45 @@ table td {
    #dep3 p{
     font-size: px;
    }
+   .dep3-img img{
+    width: 300px;
+   }
+   #leo2 img{
+    width: 200px;
+    height: 200px;
+   }
+   #leo-threat img{
+    width: 250px;
+    height: 250px;
+   }
+   .anim11{
+    flex-direction: column;
+   }
+   .anim11 img{
+    width: 250px;
+    height: 250px;
+   }
+   .threat-img{
+    flex-direction: column;
+   }
+   .threat-img img{
+    width: 250px;
+    height: 250px;
+   }
+   #sub1 img{
+    width: 350px;
+    height: 350px;
+   }
+   #sub2 img{
+    width: 350px;
+    height: 350px;
+   }
+   #wildlife-summary table{
+    width: 300px;
+   }
+
+   
+
 
 
 }
