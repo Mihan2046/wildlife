@@ -1,0 +1,51 @@
+{
+    "main": {
+        "sections": [
+            {
+                "title": "Animals in sri lanka"
+            },
+            {
+                "title": "Indigenous Animals found in Sri Lanka",
+                "name": "Sri Lanka, characterized by its diverse ecosystems ranging from rainforests to coastal areas, is home to a variety of indigenous animals. These species have adapted to the unique landscapes of the island, resulting in a rich tapestry of biodiversity.",
+                "animals": [
+                    {
+                        "name": "Sri Lankan Elephant (Elephas maximus maximus)",
+                        "imageSrc": "img/Sri_Lankan_elephants_(Elephas_maximus_maximus).jpg",
+                        "alt": "elephant",
+                        "description": "The Sri Lankan elephant is an iconic species and the largest land mammal in the country. Known for its cultural significance, these elephants inhabit various habitats, including national parks and forested areas."
+                    },
+                    {
+                        "name": "Spotted Deer (Axis axis ceylonensis)",
+                        "imageSrc": "img/purple-faced-langur-iStock-512335336-resize.jpg",
+                        "alt": "purple-faced",
+                        "description": "The spotted deer, or axis deer, is a common herbivore in Sri Lanka. Recognizable by its distinctive coat with white spots, it inhabits various ecosystems, including grasslands and forests."
+                    },
+                    {
+                        "name": "Hump-Nosed Lizard (Lyriocephalus scutatus)",
+                        "imageSrc": "img/33320076158_e5fbbfc89b_b.jpg",
+                        "alt": "hump",
+                        "description": "The hump-nosed lizard is an endemic and visually striking reptile found in the central hills of Sri Lanka. It has a unique appearance, characterized by a hump-like projection on its nose."
+                    }
+                ]
+            },
+            {
+                "content": {
+                    "threat-img": [
+                        {
+                            "link": "wipattu.html",
+                            "imageSrc": "img/wilpattu.jpg",
+                            "alt": "park",
+                            "title": "Wilpathu National Park"
+                        },
+                        {
+                            "link": "yala.html",
+                            "imageSrc": "img/yala.jpg",
+                            "alt": "yala",
+                            "title": "Yala National Park"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

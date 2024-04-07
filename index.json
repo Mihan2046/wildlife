@@ -1,0 +1,69 @@
+{
+    "main": {
+        "sections": [
+            {
+                "title": "WELCOME !",
+                "content": "Sri Lanka, a biodiversity hotspot, boasts diverse wildlife including elephants, leopards, and endemic species. Rich ecosystems like Sinharaja Forest and Yala National Park make it a haven for nature enthusiasts.",
+                "button": {
+                    "text": "click me",
+                    "link": "wildlife.html"
+                }
+            },
+            {
+                "image": "img/udawall.jpg",
+                "title": "National Parks and Reserves",
+                "content": [
+                    "Sri Lanka boasts numerous national parks and wildlife reserves that serve as vital habitats for a wide array of flora and fauna. Popular ones include Yala National Park, Wilpattu National Park, Udawalawe National Park, and Sinharaja Forest Reserve.",
+                    "Sri Lanka is home to a variety of national parks and wildlife reserves, each offering a unique ecosystem and a diverse range of flora and fauna. These protected areas play a crucial role in the conservation of the island's rich biodiversity"
+                ]
+            },
+            {
+                "title": "Reptiles and Amphibians",
+                "content": [
+                    "Sri Lanka is home to a diverse array of reptiles and amphibians, many of which are endemic to the island. The country's tropical climate and varied ecosystems provide suitable habitats for these fascinating creatures"
+                ],
+                "list": [
+                    "Green Sea Turtle (Chelonia mydas)",
+                    "Saltwater Crocodile (Crocodylus porosus)",
+                    "Mugger Crocodile (Crocodylus palustris)",
+                    "Monitor Lizards (Varanus spp.)"
+                ],
+                "button": {
+                    "text": "EXPLORE MORE",
+                    "link": "https://www.dwc.gov.lk/wnp/amphibians-reptiles/"
+                },
+                "image": "img/mugger-croc-large.jpg"
+            },
+            {
+                "image": "img/forest1.jpg",
+                "title": "Birdlife",
+                "content": [
+                    "Sri Lanka is a paradise for birdwatchers, boasting a rich diversity of avian species. The country's varied ecosystems, including rainforests, wetlands, grasslands, and coastal areas, provide a habitat for numerous resident and migratory birds."
+                ],
+                "list": [
+                    "Endemic Bird Species",
+                    "Wetland Birds",
+                    "Forest Birds",
+                    "Migratory Birds"
+                ]
+            },
+            {
+                "title": "Here are some interesting facts about Sri Lankan wildlife:",
+                "list": [
+                    {
+                        "fact": "Biodiversity Hotspot",
+                        "description": "Sri Lanka is recognized as a biodiversity hotspot, meaning it is a region with a high concentration of species, many of which are found nowhere else on Earth. The island's relatively small size is home to a remarkable diversity of flora and fauna."
+                    },
+                    {
+                        "fact": "Endemic Species",
+                        "description": "The island has a significant number of endemic species, including mammals, birds, reptiles, and amphibians. The Sri Lankan leopard, Sri Lankan elephant, and several bird species, such as the Sri Lanka Junglefowl, are examples of endemic wildlife."
+                    },
+                    {
+                        "fact": "Sri Lankan Elephant",
+                        "description": "The Sri Lankan elephant (Elephas maximus maximus) is the largest of the three recognized subspecies of the Asian elephant. It is an iconic and culturally significant species in Sri Lanka, and many of them can be found in national parks like Udawalawe and Minneriya."
+                    }
+                ]
+            }
+        ]
+    }
+}

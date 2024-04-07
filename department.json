@@ -1,0 +1,84 @@
+{
+    "main": {
+        "department-intro": {
+            "h1": "Department of Wildlife Conservation"
+        },
+        "dis1-department": {
+            "h3": "The Department of Wildlife Conservation (DWC) in Sri Lanka is the primary government agency responsible for the conservation and sustainable management of wildlife resources in the country. Its mission is to protect and preserve the natural heritage of Sri Lanka by implementing policies and programs that ensure the survival and well-being of its wildlife.",
+            "dis2-department": {
+                "h4": "DID YOU KNOW",
+                "h2": "Human-Wildlife Conflict",
+                "p": [
+                    "Human-wildlife conflict refers to the interactions and clashes between human activities and wildlife that result in negative impacts on both parties. This conflict often arises in areas where human development encroaches upon natural habitats, leading to increased competition for resources and space. Agricultural areas, in particular, become flashpoints for conflict as wildlife may damage crops, leading to economic losses for farmers, while humans pose threats to wildlife through habitat destruction and direct conflict.",
+                    "In Sri Lanka, The Department of Wildlife Conservation (DWC) grapples with the persistent challenge of managing human-wildlife conflict. As urbanization and agricultural expansion continue, humans and wildlife increasingly find themselves sharing the same landscapes, leading to confrontations that jeopardize both community livelihoods and the conservation of diverse ecosystems. The DWC is tasked with finding solutions that strike a balance between protecting agricultural interests and preserving wildlife.",
+                    "Mitigating human-wildlife conflict involves a combination of strategies, including the development of effective land-use planning, the creation of buffer zones, and the implementation of measures to prevent crop depredation. Additionally, the DWC engages in community outreach and education programs to raise awareness about coexisting with wildlife, promoting tolerance and understanding. By implementing these measures, the department aims to foster a harmonious relationship between humans and wildlife, ensuring the sustainability of both agricultural practices and the diverse fauna that inhabit Sri Lanka's natural landscapes."
+                ]
+            }
+        },
+        "department2": {
+            "iframe": {
+                "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2716761.832347415!2d79.23021272793278!3d7.69461087174653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259c6ab0a7547%3A0xc58dfaf84093c1bb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705339325823!5m2!1sen!2slk",
+                "width": 600,
+                "height": 450,
+                "style": "border:0;",
+                "allowfullscreen": "",
+                "loading": "lazy",
+                "referrerpolicy": "no-referrer-when-downgrade"
+            },
+            "img": {
+                "src": "img/logo.png",
+                "alt": "department of wildlife conservation"
+            }
+        },
+        "gallery": {
+            "mappic1": [
+                {
+                    "src": "img/Buffer zone.jpeg",
+                    "alt": "buffer-zone"
+                },
+                {
+                    "src": "img/NATIONAL-PARK.jpg",
+                    "alt": "national-park"
+                },
+                {
+                    "src": "img/Jungle Corridor.avif",
+                    "alt": "jungle-corridor"
+                },
+                {
+                    "src": "img/StrictNaturalReserve.jpg",
+                    "alt": "strike"
+                }
+            ],
+            "mappic2": [
+                {
+                    "src": "img/Marine National Park.webp",
+                    "alt": "marain national park photos"
+                },
+                {
+                    "src": "img/Sanctuary or a Managed Elephant Reserve.jpg",
+                    "alt": "Elephant"
+                },
+                {
+                    "src": "img/hikkaduwa.jpg",
+                    "alt": "hikkaduwa"
+                },
+                {
+                    "src": "img/4TheSeerockKing_sDomain-Safari_f7ed2195-a090-4cc5-bc23-dd275bdd9891.webp",
+                    "alt": "#"
+                }
+            ]
+        },
+        "depp3": {
+            "div#dep3": {
+                "h1": "CONCLUSION",
+                "p": "The Sri Lanka Department of Wildlife Conservation plays a vital role in safeguarding the country's natural heritage. Through its multifaceted approach, the department aims to balance conservation needs with sustainable development, ensuring that future generations can enjoy the diverse and unique wildlife that Sri Lanka has to offer. It is crucial for the department to adapt to emerging challenges and collaborate with various stakeholders to achieve its conservation goals."
+            },
+            "div.dep3-img": {
+                "img": {
+                    "src": "img/dep3.jpg",
+                    "alt": "deppp"
+                }
+            }
+        }
+    }
+}

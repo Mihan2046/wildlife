@@ -1,0 +1,65 @@
+{
+    "main": {
+        "sections": [
+            {
+                "heading": "Sri Lankan Wildlife"
+            },
+            {
+                "heading": "Here are two wildlife locations in Sri Lanka",
+                "locations": [
+                    {
+                        "name": "LOCATION ; Minneriya National Park",
+                        "iframe": {
+                            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.674038510928!2d80.8023333!3d6.8094459999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1703657854220!5m2!1sen!2slk",
+                            "width": "700",
+                            "height": "300",
+                            "style": "border: 0",
+                            "allowfullscreen": "",
+                            "loading": "lazy",
+                            "referrerpolicy": "no-referrer-when-downgrade"
+                        },
+                        "images": [
+                            "img/mappic1.1.jpg",
+                            "img/mappic1.2.jpg",
+                            "img/mappic2.1.webp",
+                            "img/4TheSeerockKing_sDomain-Safari_f7ed2195-a090-4cc5-bc23-dd275bdd9891.webp"
+                        ],
+                        "description": "Minneriya National Park in Sri Lanka is a 88.9 square kilometers wildlife sanctuary, known for its diverse ecosystems and the \"Elephant Gathering.\" The park attracts wildlife enthusiasts and tourists with its diverse habitats, including wetlands and evergreen forests. The Minneriya Tank, a historic reservoir built by King Mahasena in the 3rd century AD, sustains the park's wildlife and adds to its scenic beauty. Safari tours are popular for visitors to observe the park's wildlife and its open grasslands."
+                    },
+                    {
+                        "name": "LOCATION ; Horton Plains National Park",
+                        "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.674038567171!2d80.79975837475597!3d6.809445993188055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705314970041!5m2!1sen!2slk",
+                        "images": [
+                            "img/hortan 2.jpeg",
+                            "img/hortn.jpg",
+                            "img/hortn 3.png",
+                            "img/hortan 4.jpg"
+                        ],
+                        "description": "Horton Plains National Park in Sri Lanka, established in 1988, spans 31.6 square kilometers and is known for its picturesque landscapes and unique biodiversity. The park features rolling hills, grassy plains, and mist-covered forests, with attractions like Baker's Falls and World's End. It is home to endemic species like the Horton Plains slender loris, sambar deer, purple-faced langurs, and bird species. Horton Plains was designated a UNESCO World Heritage Site in 2010 for its ecological significance. Visitors can enjoy a tranquil escape into nature."
+                    }
+                ]
+            },
+            {
+                "heading": "Wildlife summary",
+                "animalFacts": [
+                    {
+                        "name": "Sloth Bear",
+                        "fact": "This bear species is found in Sri Lanka and is known for its unique appearance and behavior. It can be spotted in various national parks.",
+                        "image": "img/slothbear.webp"
+                    },
+                    {
+                        "name": "Horton Plains Slender Lorist",
+                        "fact": "Another endemic primate species, the slender loris is a nocturnal primate found in the park.",
+                        "image": "img/animal3.jpg"
+                    },
+                    {
+                        "name": "The purple-faced langur",
+                        "fact": "An endemic primate species found in the montane forests of Sri Lanka, particularly in places like Horton Plains.",
+                        "image": "img/languer.jpg"
+                    }
+                ],
+                "summary": "Sri Lanka's national parks, totaling over 8,000 square kilometers, are vital sanctuaries for the country's diverse wildlife"
+            }
+        ]
+    }
+}
