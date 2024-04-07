@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/assets/css/dash.css" />
+</head>
+<style>
+    /* Button styles */
+    .btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #315116;
+        color: #ffffff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .page {
+        border: 1px solid #862c2c;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .editBtn {
+        background-color: #0000007b;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+
+    .editBtn:hover {
+        background-color: #0056b3;
+    }
+
+    #logoutBtn {
+        background-color: #dc3545;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        padding: 5px 10px;
+        float: right;
+        margin-top: 5px;
+    }
+
+    #logoutBtn:hover {
+        background-color: #c82333;
+    }
+
+    /* Container styles */
+    #subscriptions {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Title styles */
+    .emailTitle {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    /* Email list styles */
+    #emailLists {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #emailLists li {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+    }
+
+    /* Subscription Emails container */
+    .subscriptionsEmails {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<body>
+    <div id="loginMessage" style="
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+      ">
+        <h1>Please Login to access the Dashboard!</h1>
+        <button class="btn">
+            <a href="./login.html" style="text-decoration: none; color: white">Log In</a>
+        </button>
+    </div>
+
+    <div id="dash">
+        <header>
+            <h1>Welcome to the Dashboard</h1>
+            <button id="logoutBtn">Logout</button>
+        </header>
+        <div class="container">
+            <div class="page">
+                <h2>Home Page</h2>
+                <button class="editBtn" data-page="page1">Edit</button>
+            </div>
+            <div class="page">
+                <h2>WildLife</h2>
+                <button class="editBtn" data-page="page2">Edit</button>
+            </div>
+            <div class="page">
+                <h2>Department</h2>
+                <button class="editBtn" data-page="page3">Edit</button>
+            </div>
+            <div class="page">
+                <h2>Sri Lankan Leopard</h2>
+                <button class="editBtn" data-page="page4">Edit</button>
+            </div>
+            <div class="page">
+                <h2>Animals</h2>
+                <button class="editBtn" data-page="page5">Edit</button>
+            </div>
+            <div class="page">
+                <h2>Wilpattu</h2>
+                <button class="editBtn" data-page="page6">Edit</button>
+            </div>
+            <div class="page">
+                <h2>Yala</h2>
+                <button class="editBtn" data-page="page7">Edit</button>
+            </div>
+        </div>
+
+        <section id="subscriptions">
+            <div class="subscriptionsEmails">
+                <h1 class="emialTitle">Subscription Emails</h1>
+                <ol id="emialLists"></ol>
+            </div>
+        </section>
+    </div>
+    <!-- JavaScript -->
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

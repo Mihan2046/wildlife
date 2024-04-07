@@ -21,7 +21,7 @@
                     <li><a href="wildlife.html">Sri Lankan wildlife</a></li>
                     <li><a href="department.html">Department of Wildlife</a></li>
                     <li><a href="leopard.html">Leopard</a></li>
-                    <li><a href="animals.html">Animals in Sri Lanka</a></li>
+                    <button class="login-button"><a href="login.html"></a> Login</button>
                     <img id="hamburger" class="hamburger" src="img/hamburger.svg" alt="">
                 </ul>
             </nav>
@@ -112,6 +112,14 @@
             </div>
 
         </section>
+        <footer>
+            <p>Subscribe to our newsletter for updates:</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input class="newsletter-input" type="email" id="email" name="email" placeholder="Your email address"
+                    required />
+                <button class="newsletter-button" type="submit">Subscribe</button>
+            </form>
+        </footer>
         <script src="index.js"></script>
         <footer class="footer">
             <div class="row">
@@ -164,6 +172,34 @@
 
     <script src="index.js"></script>
     <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const newsletterForm = document.getElementById("newsletterForm");
+
+            newsletterForm.addEventListener("submit", function (event) {
+                event.preventDefault(); // Prevent form submission
+
+                const email = document.getElementById("email").value;
+
+                // Save email to localStorage
+                saveEmailToLocalStorage(email);
+
+                // Clear input field
+                document.getElementById("email").value = "";
+
+                alert("Thank you for subscribing to our newsletter!");
+            });
+            function saveEmailToLocalStorage(email) {
+                let subscriptions =
+                    JSON.parse(localStorage.getItem("subscriptions")) || [];
+                subscriptions.push(email);
+                localStorage.setItem(
+                    "subscriptions",
+                    JSON.stringify(subscriptions)
+                );
+            }
+        });
+    </script>
 
 </body>
 
