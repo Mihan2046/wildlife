@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="/assets/css/dash.css" />
+    <link rel="stylesheet" href="index.css">
+
 </head>
 <style>
-    /* Button styles */
+    /* Button */
     .btn {
         background-color: #007bff;
         color: #fff;
@@ -31,8 +33,15 @@
         padding: 0;
     }
 
+    #dash h1 {
+        align-items: center;
+        color: #000000;
+        font-size: 45px;
+        padding: 20px;
+    }
+
     header {
-        background-color: #315116;
+        background-color: #52b673;
         color: #ffffff;
         padding: 10px;
         text-align: center;
@@ -82,7 +91,7 @@
         background-color: #c82333;
     }
 
-    /* Container styles */
+    /* Container */
     #subscriptions {
         background-color: #f8f9fa;
         padding: 20px;
@@ -90,7 +99,7 @@
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
 
-    /* Title styles */
+    /* Title */
     .emailTitle {
         font-size: 24px;
         font-weight: bold;
@@ -98,7 +107,7 @@
         margin-bottom: 10px;
     }
 
-    /* Email list styles */
+    /* Email list */
     #emailLists {
         list-style-type: none;
         padding: 0;
@@ -113,7 +122,7 @@
         padding-bottom: 5px;
     }
 
-    /* Subscription Emails container */
+    /* Subscription Emails */
     .subscriptionsEmails {
         background-color: #fff;
         border-radius: 8px;
@@ -124,6 +133,31 @@
 </style>
 
 <body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wildlife.html">Sri Lankan wildlife</a></li>
+                    <li><a href="department.html">Department of Wildlife</a></li>
+                    <li><a href="leopard.html">Leopard</a></li>
+                    <li><a href="animals.html">Animals in Sri Lanka</a></li>
+
+                    <img id="hamburger" class="hamburger" src="img/hamburger.svg" alt="">
+                </ul>
+            </nav>
+            <nav class="mobile_menu ">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wildlife.html">Sri Lankan wildlife</a></li>
+                    <li><a href="department.html">Department of Wildlife</a></li>
+                    <li><a href="leopard.html">Leopard</a></li>
+                    <li><a href="animals.html">Animals in Sri Lanka</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
     <div id="loginMessage" style="
         text-align: center;
         display: flex;
@@ -146,31 +180,31 @@
         <div class="container">
             <div class="page">
                 <h2>Home Page</h2>
-                <button class="editBtn" data-page="page1">Edit</button>
+                <button class="editBtn" id="openPopup" onclick="openPopup()">Edit</button>
             </div>
             <div class="page">
                 <h2>WildLife</h2>
-                <button class="editBtn" data-page="page2">Edit</button>
+                <button class="editBtn" id="openPopup" onclick="openPopup()">Edit</button>
             </div>
             <div class="page">
                 <h2>Department</h2>
-                <button class="editBtn" data-page="page3">Edit</button>
+                <button class="editBtn" id="openPopup" onclick="openPopup()">Edit</button>
             </div>
             <div class="page">
                 <h2>Sri Lankan Leopard</h2>
-                <button class="editBtn" data-page="page4">Edit</button>
+                <button class="editBtn" id="openPopup" onclick="openPopup()">Edit</button>
             </div>
             <div class="page">
                 <h2>Animals</h2>
-                <button class="editBtn" data-page="page5">Edit</button>
+                <button class="editBtn" id="openPopup" onclick="openPopup()">Edit</button>
             </div>
             <div class="page">
                 <h2>Wilpattu</h2>
-                <button class="editBtn" data-page="page6">Edit</button>
+                <button class="editBtn" id="openPopup" onclick="openPopup()">Edit</button>
             </div>
             <div class="page">
                 <h2>Yala</h2>
-                <button class="editBtn" data-page="page7">Edit</button>
+                <button class="editBtn" id="openPopup" onclick="openPopup()">Edit</button>
             </div>
         </div>
 
@@ -181,8 +215,9 @@
             </div>
         </section>
     </div>
-    <!-- JavaScript -->
+
     <script src="dashboard.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

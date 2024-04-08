@@ -76,3 +76,17 @@ editBtns.forEach((btn) => {
 //   listItem.textContent = emailList;
 //   email.appendChild(listItem);
 // });
+
+// if (localStorage.getItem("currentUser")) {
+// document.querySelector(".headingPopup").classList.remove("display-none")
+// const getPopup = <span class="popup" onclick="openPopup()">▶</span>;
+// document.getElementById("openPopup").insertAdjacentHTML("beforeend", getPopup);
+// }
+
+function openPopup() {
+    window.open("editer.html", "", "width = 800px, height = 410px");
+}
+
+function handleViewClick(url) {
+    window.location.href = url;
+}

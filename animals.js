@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return response.json();
         })
         .then(content => {
-            localStorage.setItem("animals", JSON.stringify(content));
+            if (!localStorage.getItem("animals")) { localStorage.setItem("animals", JSON.stringify(data)); }
 
             const data = JSON.parse(localStorage.getItem("animals"));
             console.log(data);

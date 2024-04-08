@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return response.json();
         })
         .then(content => {
-            localStorage.setItem("homePage", JSON.stringify(content));
+            if (!localStorage.getItem("homePage")) { localStorage.setItem("homePage", JSON.stringify(data)); }
 
             const data = JSON.parse(localStorage.getItem("homePage"));
             console.log(data);
@@ -29,8 +29,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 data.main.sections[2].title;
             document.getElementById("sub2Info").innerHTML =
                 data.main.sections[2].content;
-            document.getElementById("sub2Ul").innerHTML =
-                data.main.sections[2].list;
+            document.getElementById("sub2li1").innerHTML =
+                data.main.sections[2].list[0];
+            document.getElementById("sub2li2").innerHTML =
+                data.main.sections[2].list[1];
+            document.getElementById("sub2li3").innerHTML =
+                data.main.sections[2].list[2];
+            document.getElementById("sub2li4").innerHTML =
+                data.main.sections[2].list[3];
             document.getElementById("sub2Button").innerHTML =
                 data.main.sections[2].button.text;
             const subPic2 = data.main.sections[2].image;
@@ -41,8 +47,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 data.main.sections[3].title;
             document.getElementById("sub3Info").innerHTML =
                 data.main.sections[3].content;
-            document.getElementById("sub3Ul").innerHTML =
-                data.main.sections[3].content.list;
+            document.getElementById("sub3li1").innerHTML =
+                data.main.sections[3].list[0];
+            document.getElementById("sub3li2").innerHTML =
+                data.main.sections[3].list[1];
+            document.getElementById("sub3li3").innerHTML =
+                data.main.sections[3].list[2];
+            document.getElementById("sub3li4").innerHTML =
+                data.main.sections[3].list[3];
             document.getElementById("fact").innerHTML =
                 data.main.sections[4].title;
             document.getElementById("fact1").innerHTML =
