@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const username = document.getElementById("username").value;
                     const password = document.getElementById("password").value;
 
-                    // Validate credentials
+
                     const user = data.users.find(
                         (user) => user.username === username && user.password === password
                     );
